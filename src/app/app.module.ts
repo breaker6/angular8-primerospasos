@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { CorreoComponent } from './Component/correo/correo.component';
 import { ListaCorreoComponent } from './Component/lista-correo/lista-correo.component';
 import { NuevoCorreoComponent } from './Component/nuevo-correo/nuevo-correo.component';
+import { AvisosComponent } from './Component/avisos/avisos.component';
+import { CorreosRecibidosComponent } from './Views/correos-recibidos/correos-recibidos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CorreoComponent,
     ListaCorreoComponent,
-    NuevoCorreoComponent
+    NuevoCorreoComponent,
+    AvisosComponent,
+    CorreosRecibidosComponent
   ],
   imports: [
     BrowserModule,
