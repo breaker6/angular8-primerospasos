@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { CorreoComponent } from './Component/correo/correo.component';
 import { ListaCorreoComponent } from './Component/lista-correo/lista-correo.component';
 import { NuevoCorreoComponent } from './Component/nuevo-correo/nuevo-correo.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NuevoCorreoComponent } from './Component/nuevo-correo/nuevo-correo.comp
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
